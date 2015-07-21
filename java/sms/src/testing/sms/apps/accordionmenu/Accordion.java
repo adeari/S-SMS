@@ -1,4 +1,4 @@
-package sms.apps.accordionmenu;
+package testing.sms.apps.accordionmenu;
 
 import java.awt.BorderLayout;
 import java.awt.Dimension;

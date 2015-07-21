@@ -1,4 +1,4 @@
-package sms.apps.accordionmenu;
+package testing.sms.apps.accordionmenu;
 
 import javax.swing.JComponent;
 
