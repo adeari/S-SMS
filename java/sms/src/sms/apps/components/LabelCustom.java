@@ -10,6 +10,6 @@ public class LabelCustom extends JLabel {
 	public LabelCustom(String title) {
 		this.setText(title);
 		this.setFont(new Font(null, Font.PLAIN, 15));
-		this.setPreferredSize(new Dimension(100, 30));
+		this.setPreferredSize(new Dimension(150, 30));
 	}
 }

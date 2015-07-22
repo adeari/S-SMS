@@ -13,7 +13,7 @@ public class Textbox extends JTextField {
 
 	public Textbox() {
 		this.setFont(new Font(null, Font.PLAIN, 15));
-		this.setPreferredSize(new Dimension(150, 30));
+		this.setPreferredSize(new Dimension(350, 30));
 		this.addFocusListener(new FocusListener() {
 
 			public void focusGained(FocusEvent e) {

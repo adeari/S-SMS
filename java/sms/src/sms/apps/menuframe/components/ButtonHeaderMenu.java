@@ -10,14 +10,14 @@ import java.awt.event.FocusListener;
 import javax.swing.Icon;
 import javax.swing.JButton;
 
-public class ButtonLeftMenu extends JButton {
+public class ButtonHeaderMenu extends JButton {
 	private static final long serialVersionUID = -2738896119850464359L;
 
-	public ButtonLeftMenu(String title, Icon icon) {
+	public ButtonHeaderMenu(String title, Icon icon) {
 		this.setText(title);
 		this.setIcon(icon);
 		this.setFont(new Font(null, Font.BOLD, 15));
-		this.setPreferredSize(new Dimension(250, 30));
+		this.setPreferredSize(new Dimension(200, 30));
 		this.setHorizontalAlignment(LEFT);
 		this.setCursor(new Cursor(Cursor.HAND_CURSOR));
 		this.addFocusListener(focusListener);
